@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-directions": "^4.1.1",
+    "mapbox-gl": "^0.41.0 <2.0.0",
+    "nuxt-property-decorator": "^2.7.2"
+  },
+  "devDependencies": {
+    "nuxt": "^3.3.1"
+  }
+}
